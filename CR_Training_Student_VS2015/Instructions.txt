@@ -1,0 +1,9 @@
+CProgramming: main file is TestCode.c
+
+Python: main file is TestFile.py
+	open a command prompt, navigate to the Python directory and run TestFileCheck.pyc to grade your TestFile.py
+Python_practice:
+	more fun with python, student code is in test_code.py, open a cmd prompt and run the "run_tests.py"
+
+Networking: open a command prompt, navigate to the Networking directory and run 'python Auth-Server.pyc'
+	Follow the instructions in the Auth-Client.py to connect to the server.

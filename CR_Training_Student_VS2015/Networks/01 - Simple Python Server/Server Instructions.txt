@@ -1,0 +1,12 @@
+Connect to the server using 'localhost' as the IP, port 6880
+
+The server always sends a message size of 64 bytes
+
+Once connected, the server will ask you for your name
+
+Enter your name and the server will ask a question specific to you
+
+If you enter your name incorrectly, the server will send back an error message
+
+Answer the question and the server will tell you if it's correct and close the
+connection or it will ask you to try again if it's incorrect.
