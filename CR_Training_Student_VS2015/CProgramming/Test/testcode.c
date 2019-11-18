@@ -39,7 +39,7 @@ int testTwo()
 {
     int ret = 9999;
 
-    printf("////TEST ONE////\n\n");
+    printf("////TEST TWO////\n\n");
 
     ret = reverseWord(stringlist02[0]);
     printf("Return is: %d\n\n", ret);
@@ -54,7 +54,13 @@ int testTwo()
 int main()
 {
     testOne();
+
+    printf("Stringlist01[0] is now: %s\n", stringlist01[0]);
+
     testTwo();
 
     return 0;
 }
+
+
+// Compile: c:\> gcc *.c -o testcode.exe
