@@ -24,8 +24,8 @@ int changeLetterInString(char *sentence)
         int len = strlen(sentence);
         char newsentence[15];
 
-        printf("Sentence is not NULL\n");
-        printf("String Length is: %d\n", len);
+        //printf("Sentence is not NULL\n");
+        //printf("String Length is: %d\n", len);
 
         for(int i = 0; i < strlen(sentence); i++)
         {
@@ -42,25 +42,25 @@ int changeLetterInString(char *sentence)
             
         }
 
-        strcpy(sentence, newsentence);
+        
 
         if(bool == 1)
         {            
-            printf("New Sentence: \"%s\"\n", newsentence);
+            //printf("New Sentence: \"%s\"\n", newsentence);
             success = 0;
-            //*sentence = newsentence;
+            strcpy(sentence, newsentence);
         }
         else
         {
-            printf("New Sentence: \"%s\"\n", newsentence);
-            printf("No \'y\' found!\n");
+            //printf("New Sentence: \"%s\"\n", newsentence);
+            //printf("No \'y\' found!\n");
             success = 1168;
         }
     }
 
     else
     {
-        printf("Sentence is NULL\n");
+        //printf("Sentence is NULL\n");
         success = 87;
     }
 
