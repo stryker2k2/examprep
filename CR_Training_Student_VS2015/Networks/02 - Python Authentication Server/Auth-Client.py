@@ -68,6 +68,8 @@ def connect():
     sock.send("5")
 
     my_struct = struct.pack('5s i', 'user1', 91827364)
+    # struct.pack('5-char string and an integer', '5-char string', int)
+    # struct.pack('what to expect', 'expected', expected)
     print("[*] Sending User1 Struct")
     sock.send(my_struct)
 
