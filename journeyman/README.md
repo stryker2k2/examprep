@@ -7,3 +7,5 @@ https://www.corelan.be/index.php/2009/07/19/exploit-writing-tutorial-part-1-stac
 https://modexp.wordpress.com/2017/02/03/shellcode-iat/
 
 https://resources.infosecinstitute.com/stack-based-buffer-overflow-in-win-32-platform-part-6-dealing-with-bad-characters-jmp-instruction/#gref
+
+https://idafchev.github.io/exploit/2017/09/26/writing_windows_shellcode.html
