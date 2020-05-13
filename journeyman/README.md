@@ -20,3 +20,6 @@ https://www.youtube.com/watch?v=mYfKnng8oZw
 
 PE Format Manipulation with PEFile\
 https://axcheron.github.io/pe-format-manipulation-with-pefile/
+
+Understanding Windows Shellcode\
+http://www.hick.org/code/skape/papers/win32-shellcode.pdf
