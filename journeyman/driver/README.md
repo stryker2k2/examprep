@@ -4,5 +4,8 @@ https://docs.microsoft.com/en-us/windows-hardware/drivers/gettingstarted/writing
 Windows Kernel Programming Tutorial 1 - Setting up Environment - Part 1\
 https://youtu.be/XUlbYRFFYf0
 
-Getting Started Writing Windows Drivers
+Getting Started Writing Windows Drivers\
 https://www.osr.com/getting-started-writing-windows-drivers/
+
+Driver samples for Windows 10\
+https://github.com/microsoft/Windows-driver-samples
