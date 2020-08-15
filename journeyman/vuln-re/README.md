@@ -1,3 +1,6 @@
+Disable Data Execution Prevention (DEP)
+https://www.a1logic.com/2012/06/14/disable-dep-and-aslr-on-windows-7-64bit-at-compile-time/
+
 Code injection on Windows using Python: a simple example\
 https://www.andreafortuna.org/2018/08/06/code-injection-on-windows-using-python-a-simple-example/
 
