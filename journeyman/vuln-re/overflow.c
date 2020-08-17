@@ -3,7 +3,7 @@
 
 void return_input(char *buffer1)
 {
-	char buffer2[30];
+	char buffer2[9];
 
 	//gets(buffer2);
 	strcpy(buffer2, buffer1);
@@ -16,3 +16,10 @@ int main(int argc, char **argv)
 
 	return 0;
 }
+
+/// TO COMPILE: ///
+//
+// c:\> gcc -mpreferred-stack-boundary=2 -ggdb overflow.c -o overflow.exe
+// c:\> gcc -fno-stack-protector -m32 overflow.c -o overflow.exe
+//
+///////////////////
