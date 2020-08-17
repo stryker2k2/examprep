@@ -1,0 +1,7 @@
+Windows Kernel Programming Tutorial 1 - Setting up Environment - Part 1
+
+1. RegEdit: HKLM\SYSTEM\CurrentControlSet\Control\Session Manager
+    o  New Key: Debug Print Filter
+        *  New DWORD: DEFAULT
+        *  Value: f
+    
